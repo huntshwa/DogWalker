@@ -19,5 +19,9 @@ public class Main {
         }
 
         System.out.println(c);
+
+        w = new DogWalker(3, c);
+
+        System.out.println("$" + w.dogWalkShift(7, 10) + ".00 earned");
     }
 }
